@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TRAVEL_PTUDModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="TRAVEL_PTUDModelStoreContainer">
+    <EntitySet Name="TOUR" EntityType="TRAVEL_PTUDModel.Store.TOUR" store:Type="Tables" store:Schema="dbo" store:Name="TOUR">
+      <DefiningQuery>SELECT 
+      [TOUR].[ID] AS [ID], 
+      [TOUR].[TENTOUR] AS [TENTOUR], 
+      [TOUR].[LOAITOUR] AS [LOAITOUR], 
+      [TOUR].[DIEMBATDAU] AS [DIEMBATDAU], 
+      [TOUR].[NGAYBATDAU] AS [NGAYBATDAU], 
+      [TOUR].[NGAYKETTHUC] AS [NGAYKETTHUC], 
+      [TOUR].[BATDAUDANGKY] AS [BATDAUDANGKY], 
+      [TOUR].[KETTHUCDANGKY] AS [KETTHUCDANGKY], 
+      [TOUR].[MOTA] AS [MOTA], 
+      [TOUR].[SOVENGUOILON] AS [SOVENGUOILON], 
+      [TOUR].[GIANGUOILON] AS [GIANGUOILON], 
+      [TOUR].[SOVETREEM] AS [SOVETREEM], 
+      [TOUR].[GIATREEM] AS [GIATREEM], 
+      [TOUR].[SOVETRENHO] AS [SOVETRENHO], 
+      [TOUR].[GIATRENHO] AS [GIATRENHO], 
+      [TOUR].[SOVEEMBE] AS [SOVEEMBE], 
+      [TOUR].[GIAEMBE] AS [GIAEMBE], 
+      [TOUR].[GIADAILY] AS [GIADAILY], 
+      [TOUR].[DONVITIEN] AS [DONVITIEN], 
+      [TOUR].[VANCHUYEN] AS [VANCHUYEN], 
+      [TOUR].[KHACHSAN] AS [KHACHSAN], 
+      [TOUR].[MAYBAY] AS [MAYBAY], 
+      [TOUR].[TRANGTHAI] AS [TRANGTHAI], 
+      [TOUR].[DELSTAMP] AS [DELSTAMP]
+      FROM [dbo].[TOUR] AS [TOUR]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'TRAVEL_PTUD.dbo.TOUR' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="TOUR">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="TENTOUR" />
+      <PropertyRef Name="LOAITOUR" />
+      <PropertyRef Name="DIEMBATDAU" />
+      <PropertyRef Name="NGAYBATDAU" />
+      <PropertyRef Name="NGAYKETTHUC" />
+      <PropertyRef Name="BATDAUDANGKY" />
+      <PropertyRef Name="KETTHUCDANGKY" />
+      <PropertyRef Name="SOVENGUOILON" />
+      <PropertyRef Name="GIANGUOILON" />
+      <PropertyRef Name="SOVETREEM" />
+      <PropertyRef Name="GIATREEM" />
+      <PropertyRef Name="SOVETRENHO" />
+      <PropertyRef Name="GIATRENHO" />
+      <PropertyRef Name="SOVEEMBE" />
+      <PropertyRef Name="GIAEMBE" />
+      <PropertyRef Name="GIADAILY" />
+      <PropertyRef Name="DONVITIEN" />
+      <PropertyRef Name="VANCHUYEN" />
+      <PropertyRef Name="KHACHSAN" />
+      <PropertyRef Name="MAYBAY" />
+      <PropertyRef Name="TRANGTHAI" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="TENTOUR" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LOAITOUR" Type="int" Nullable="false" />
+    <Property Name="DIEMBATDAU" Type="int" Nullable="false" />
+    <Property Name="NGAYBATDAU" Type="datetime" Nullable="false" />
+    <Property Name="NGAYKETTHUC" Type="datetime" Nullable="false" />
+    <Property Name="BATDAUDANGKY" Type="datetime" Nullable="false" />
+    <Property Name="KETTHUCDANGKY" Type="datetime" Nullable="false" />
+    <Property Name="MOTA" Type="text" />
+    <Property Name="SOVENGUOILON" Type="int" Nullable="false" />
+    <Property Name="GIANGUOILON" Type="float" Nullable="false" />
+    <Property Name="SOVETREEM" Type="int" Nullable="false" />
+    <Property Name="GIATREEM" Type="float" Nullable="false" />
+    <Property Name="SOVETRENHO" Type="int" Nullable="false" />
+    <Property Name="GIATRENHO" Type="float" Nullable="false" />
+    <Property Name="SOVEEMBE" Type="int" Nullable="false" />
+    <Property Name="GIAEMBE" Type="float" Nullable="false" />
+    <Property Name="GIADAILY" Type="float" Nullable="false" />
+    <Property Name="DONVITIEN" Type="nchar" Nullable="false" MaxLength="3" />
+    <Property Name="VANCHUYEN" Type="bit" Nullable="false" />
+    <Property Name="KHACHSAN" Type="bit" Nullable="false" />
+    <Property Name="MAYBAY" Type="bit" Nullable="false" />
+    <Property Name="TRANGTHAI" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="DELSTAMP" Type="datetime" />
+  </EntityType>
+  <Function Name="testPro" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pnLOAITOUR" Type="int" Mode="In" />
+  </Function>
+  <Function Name="TOUR_LISTOFTAB" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pnLOAITOUR" Type="int" Mode="In" />
+    <Parameter Name="pdNGAYBATDAU" Type="datetime" Mode="In" />
+    <Parameter Name="pdNGAYKETTHUC" Type="datetime" Mode="In" />
+    <Parameter Name="pnDIEMBATDAU" Type="int" Mode="In" />
+    <Parameter Name="pnOFFSET" Type="int" Mode="In" />
+    <Parameter Name="pnLIMIT" Type="int" Mode="In" />
+    <Parameter Name="pnSORT" Type="int" Mode="In" />
+    <Parameter Name="pnDIRECT" Type="int" Mode="In" />
+  </Function>
+</Schema>

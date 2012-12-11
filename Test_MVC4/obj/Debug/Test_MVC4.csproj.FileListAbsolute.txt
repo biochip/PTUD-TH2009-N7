@@ -1,0 +1,106 @@
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\Test_MVC4.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\Test_MVC4.pdb
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\Antlr3.Runtime.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.AspNet.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.Core.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OAuth.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OpenId.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\EntityFramework.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\Microsoft.Web.Infrastructure.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\Newtonsoft.Json.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Net.Http.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Net.Http.Formatting.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Net.Http.WebRequest.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Helpers.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Http.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Http.WebHost.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Mvc.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Optimization.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Razor.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.Deployment.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.Razor.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\WebGrease.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\WebMatrix.Data.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\WebMatrix.WebData.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\EntityFramework.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\Newtonsoft.Json.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Net.Http.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Net.Http.Formatting.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Net.Http.WebRequest.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Helpers.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Http.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Http.WebHost.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Mvc.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.Razor.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.Deployment.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.Razor.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\WebMatrix.Data.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\WebMatrix.WebData.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.AspNet.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.Core.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OAuth.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OpenId.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\obj\Debug\ResolveAssemblyReference.cache
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\obj\Debug\Test_MVC4.dll
+E:\baitap\nam 4\tmdt\Test_MVC4\Test_MVC4\obj\Debug\Test_MVC4.pdb
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\Test_MVC4.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\Test_MVC4.pdb
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.Core.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Net.Http.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Net.Http.WebRequest.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\WebGrease.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\WebMatrix.Data.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\WebMatrix.WebData.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Net.Http.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Net.Http.WebRequest.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\WebMatrix.Data.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\WebMatrix.WebData.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.Core.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\obj\Debug\Test_MVC4.dll
+C:\Users\Admin\Desktop\mvc\Test_MVC4\Test_MVC4\obj\Debug\Test_MVC4.pdb

@@ -1,0 +1,208 @@
+﻿@model IEnumerable<Test_MVC4.Models.TOUR>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@section featured {
+<div class="detail">
+  
+     @foreach (var item in Model) {
+                if((int)item.ID%2 == 1)
+                {
+                <div class="item">
+                    <div class="item_img">
+                        <img src="../../Images/Christmas_colors_18-282x135.jpg" />
+                    </div>
+                    <div class="desc">
+                        <h3>@Html.DisplayFor(modelItem => item.ID)</h3>
+                    </div>
+                    @Html.ActionLink("Chi Tiết", "ChiTiet", new { id = item.ID })
+                </div>
+         }
+         else
+         {
+             
+                <div class="item end">
+                   <div class="item_img">
+                        <img  src="../../Images/Christmas_colors_18-282x135.jpg" />
+                    </div>
+                    <div class="desc">
+                        <h3>@Html.DisplayFor(modelItem => item.ID)</h3>
+                    </div>
+                     @Html.ActionLink("Chi Tiết", "ChiTiet", new { id = item.ID })
+                </div>
+             }
+         }
+</div>
+
+
+}
+
+@section clsFPhoTos {
+    <div class="clsFPhotos">
+				<div class="clsblock">
+				<div class="l_t">
+					<div class="l_b">
+						<div class="l_r">
+							<div class="l_l">
+								<div class="l_tl">
+									<div class="l_tr">
+										<div class="l_bl">
+											<div class="l_br">
+												<div class="cls100_p">
+													<h2>Featured Traveller Photos</h2>
+													<ul class="clearfix">
+														<li>
+															<a href="#"><img src="images/pic1.jpg" alt="Picture1" width="226" height="133" /></a>
+															<p><a href="#">Magna aliqua</a></p>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+															</p>
+															<p><a href="#" class="read">Read More</a></p>
+														</li>
+														<li>
+															<a href="#"><img src="images/pic2.jpg" alt="Picture1" width="226" height="133" /></a>
+															<p><a href="#">Magna aliqua</a></p>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+															</p>
+															<p><a href="#" class="read">Read More</a></p>
+														</li>
+														<li>
+															<a href="#"><img src="images/pic3.jpg" alt="Picture1" width="226" height="133" /></a>
+															<p><a href="#">Magna aliqua</a></p>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+															</p>
+															<p><a href="#" class="read">Read More</a></p>
+														</li>
+														<li class="clsNoMargin">
+															<a href="#"><img src="images/pic4.jpg" alt="Picture1" width="226" height="133" /></a>
+															<p><a href="#">Magna aliqua</a></p>
+															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+															</p>
+															<p><a href="#" class="read">Read More</a></p>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+}
+
+@section SubHeader {
+<div id="SubHeader">
+			<ul class="clearfix">
+				<li class="clsStart"><a href="#" class="clsActive"><span>Home Page</span></a></li>
+				<li><a href="/Tour/ListTour"><span>ListTour</span></a></li>
+				<li><a href="#"><span>Destinatios</span></a></li>
+				<li><a href="#"><span>Services</span></a></li>
+				<li><a href="#"><span>Free Travel Guide</span></a></li>
+				<li><a href="#"><span>Tours</span></a></li>
+				<li class="clsNoBorder clsEnd"><a href="#"><span>Contact us</span></a></li>
+			</ul>
+		</div>
+}
+
+@*@section clsWelcome {
+<div class="clsWelcome clearfix">
+						<h2>Welcome To our Travel Guide</h2>
+						<div class="clsWel_Cont">
+							<p>
+							<img src="images/img1.jpg" alt="" width="246" height="153" />
+							<span>
+								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+								</span>
+							</p>
+							<p>
+								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.
+							</p>
+							<p>
+								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.
+							</p>
+						</div>
+						</div>
+}*@
+
+@*@section clsFeatuerd {
+<div class="clsFeatuerd">
+							<h2>Featured Tours</h2>
+							<p>
+								At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+							</p>
+							<ul class="clearfix">
+								<li>
+									<a href="#" class="clsColor">Taj Mahal</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">Los Angeles  </a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">New York City </a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">Paris</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								
+								<li>
+									<a href="#" class="clsColor">Temples</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">Boston </a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">  Canum</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor"> Orlando</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								
+										<li>
+									<a href="#" class="clsColor">Taj Mahal</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">Los Angeles  </a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">New York City </a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">Paris</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								
+								<li>
+									<a href="#" class="clsColor">Temples</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">Boston </a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor">  Canum</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+								<li>
+									<a href="#" class="clsColor"> Orlando</a>
+									<a href="#">Hotels, Things to do</a>
+								</li>
+							</ul>
+						</div>
+}*@

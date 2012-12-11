@@ -1,0 +1,53 @@
+﻿
+@model IEnumerable<Test_MVC4.Models.TOUR>
+
+@{
+    ViewBag.Title = "ListTour";
+    //WebGrid gridTour = new WebGrid(Model);
+}
+
+<h2>ListTour</h2>
+@*@gridTour.GetHtml(columns: new[] {
+    gridTour.Column("TENTOUR"),
+    gridTour.Column("LOAITOUR")
+})*@
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TENTOUR)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MOTA)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TENTOUR)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MOTA)
+        </td>
+        
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

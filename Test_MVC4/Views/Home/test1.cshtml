@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Test_MVC4.Models.TOUR>
+
+@{
+    ViewBag.Title = "test1";
+}
+
+<h2>test1</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@section featured {
+
+
+
+<div class="detail">
+  
+     @foreach (var item in Model) {
+                if((int)item.ID%2 == 1)
+                {
+                <div class="item">
+                    <div class="item_img">
+                        <img src="../../Images/Christmas_colors_18-282x135.jpg" />
+                    </div>
+                    <div class="desc">
+                        <h3>@Html.DisplayFor(modelItem => item.ID)</h3>
+                    </div>
+                    <a class="readmore" href="#">Chi tiet</a>
+                </div>
+         }
+         else
+         {
+             
+                <div class="item end">
+                   <div class="item_img">
+                        <img  src="../../Images/Christmas_colors_18-282x135.jpg" />
+                    </div>
+                    <div class="desc">
+                        <h3>@Html.DisplayFor(modelItem => item.ID)</h3>
+                    </div>
+                    <a class="readmore" href="#">Chi tiet</a>
+                </div>
+             }
+         }
+</div>
+
+
+}

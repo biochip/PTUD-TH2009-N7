@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TRAVEL_PTUDModel1StoreContainer" CdmEntityContainer="TRAVEL_PTUDEntities1">
+    <EntitySetMapping Name="TOURs">
+      <EntityTypeMapping TypeName="TRAVEL_PTUDModel1.TOUR">
+        <MappingFragment StoreEntitySet="TOUR">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TENTOUR" ColumnName="TENTOUR" />
+          <ScalarProperty Name="LOAITOUR" ColumnName="LOAITOUR" />
+          <ScalarProperty Name="DIEMBATDAU" ColumnName="DIEMBATDAU" />
+          <ScalarProperty Name="NGAYBATDAU" ColumnName="NGAYBATDAU" />
+          <ScalarProperty Name="NGAYKETTHUC" ColumnName="NGAYKETTHUC" />
+          <ScalarProperty Name="BATDAUDANGKY" ColumnName="BATDAUDANGKY" />
+          <ScalarProperty Name="KETTHUCDANGKY" ColumnName="KETTHUCDANGKY" />
+          <ScalarProperty Name="MOTA" ColumnName="MOTA" />
+          <ScalarProperty Name="SOVENGUOILON" ColumnName="SOVENGUOILON" />
+          <ScalarProperty Name="GIANGUOILON" ColumnName="GIANGUOILON" />
+          <ScalarProperty Name="SOVETREEM" ColumnName="SOVETREEM" />
+          <ScalarProperty Name="GIATREEM" ColumnName="GIATREEM" />
+          <ScalarProperty Name="SOVETRENHO" ColumnName="SOVETRENHO" />
+          <ScalarProperty Name="GIATRENHO" ColumnName="GIATRENHO" />
+          <ScalarProperty Name="SOVEEMBE" ColumnName="SOVEEMBE" />
+          <ScalarProperty Name="GIAEMBE" ColumnName="GIAEMBE" />
+          <ScalarProperty Name="GIADAILY" ColumnName="GIADAILY" />
+          <ScalarProperty Name="DONVITIEN" ColumnName="DONVITIEN" />
+          <ScalarProperty Name="VANCHUYEN" ColumnName="VANCHUYEN" />
+          <ScalarProperty Name="KHACHSAN" ColumnName="KHACHSAN" />
+          <ScalarProperty Name="MAYBAY" ColumnName="MAYBAY" />
+          <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+          <ScalarProperty Name="DELSTAMP" ColumnName="DELSTAMP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

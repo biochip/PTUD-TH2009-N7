@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="TRAVEL_PTUDModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="TRAVEL_PTUDModelStoreContainer">
+          <EntitySet Name="TOUR" EntityType="TRAVEL_PTUDModel.Store.TOUR" store:Type="Tables" store:Schema="dbo" store:Name="TOUR">
+            <DefiningQuery>SELECT 
+      [TOUR].[ID] AS [ID], 
+      [TOUR].[TENTOUR] AS [TENTOUR], 
+      [TOUR].[LOAITOUR] AS [LOAITOUR], 
+      [TOUR].[DIEMBATDAU] AS [DIEMBATDAU], 
+      [TOUR].[NGAYBATDAU] AS [NGAYBATDAU], 
+      [TOUR].[NGAYKETTHUC] AS [NGAYKETTHUC], 
+      [TOUR].[BATDAUDANGKY] AS [BATDAUDANGKY], 
+      [TOUR].[KETTHUCDANGKY] AS [KETTHUCDANGKY], 
+      [TOUR].[MOTA] AS [MOTA], 
+      [TOUR].[SOVENGUOILON] AS [SOVENGUOILON], 
+      [TOUR].[GIANGUOILON] AS [GIANGUOILON], 
+      [TOUR].[SOVETREEM] AS [SOVETREEM], 
+      [TOUR].[GIATREEM] AS [GIATREEM], 
+      [TOUR].[SOVETRENHO] AS [SOVETRENHO], 
+      [TOUR].[GIATRENHO] AS [GIATRENHO], 
+      [TOUR].[SOVEEMBE] AS [SOVEEMBE], 
+      [TOUR].[GIAEMBE] AS [GIAEMBE], 
+      [TOUR].[GIADAILY] AS [GIADAILY], 
+      [TOUR].[DONVITIEN] AS [DONVITIEN], 
+      [TOUR].[VANCHUYEN] AS [VANCHUYEN], 
+      [TOUR].[KHACHSAN] AS [KHACHSAN], 
+      [TOUR].[MAYBAY] AS [MAYBAY], 
+      [TOUR].[TRANGTHAI] AS [TRANGTHAI], 
+      [TOUR].[DELSTAMP] AS [DELSTAMP]
+      FROM [dbo].[TOUR] AS [TOUR]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'TRAVEL_PTUD.dbo.TOUR' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="TOUR">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="TENTOUR" />
+            <PropertyRef Name="LOAITOUR" />
+            <PropertyRef Name="DIEMBATDAU" />
+            <PropertyRef Name="NGAYBATDAU" />
+            <PropertyRef Name="NGAYKETTHUC" />
+            <PropertyRef Name="BATDAUDANGKY" />
+            <PropertyRef Name="KETTHUCDANGKY" />
+            <PropertyRef Name="SOVENGUOILON" />
+            <PropertyRef Name="GIANGUOILON" />
+            <PropertyRef Name="SOVETREEM" />
+            <PropertyRef Name="GIATREEM" />
+            <PropertyRef Name="SOVETRENHO" />
+            <PropertyRef Name="GIATRENHO" />
+            <PropertyRef Name="SOVEEMBE" />
+            <PropertyRef Name="GIAEMBE" />
+            <PropertyRef Name="GIADAILY" />
+            <PropertyRef Name="DONVITIEN" />
+            <PropertyRef Name="VANCHUYEN" />
+            <PropertyRef Name="KHACHSAN" />
+            <PropertyRef Name="MAYBAY" />
+            <PropertyRef Name="TRANGTHAI" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="TENTOUR" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="LOAITOUR" Type="int" Nullable="false" />
+          <Property Name="DIEMBATDAU" Type="int" Nullable="false" />
+          <Property Name="NGAYBATDAU" Type="datetime" Nullable="false" />
+          <Property Name="NGAYKETTHUC" Type="datetime" Nullable="false" />
+          <Property Name="BATDAUDANGKY" Type="datetime" Nullable="false" />
+          <Property Name="KETTHUCDANGKY" Type="datetime" Nullable="false" />
+          <Property Name="MOTA" Type="text" />
+          <Property Name="SOVENGUOILON" Type="int" Nullable="false" />
+          <Property Name="GIANGUOILON" Type="float" Nullable="false" />
+          <Property Name="SOVETREEM" Type="int" Nullable="false" />
+          <Property Name="GIATREEM" Type="float" Nullable="false" />
+          <Property Name="SOVETRENHO" Type="int" Nullable="false" />
+          <Property Name="GIATRENHO" Type="float" Nullable="false" />
+          <Property Name="SOVEEMBE" Type="int" Nullable="false" />
+          <Property Name="GIAEMBE" Type="float" Nullable="false" />
+          <Property Name="GIADAILY" Type="float" Nullable="false" />
+          <Property Name="DONVITIEN" Type="nchar" Nullable="false" MaxLength="3" />
+          <Property Name="VANCHUYEN" Type="bit" Nullable="false" />
+          <Property Name="KHACHSAN" Type="bit" Nullable="false" />
+          <Property Name="MAYBAY" Type="bit" Nullable="false" />
+          <Property Name="TRANGTHAI" Type="nvarchar" Nullable="false" MaxLength="128" />
+          <Property Name="DELSTAMP" Type="datetime" />
+        </EntityType>
+        <Function Name="testPro" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="pnLOAITOUR" Type="int" Mode="In" />
+        </Function>
+        <Function Name="TOUR_LISTOFTAB" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="pnLOAITOUR" Type="int" Mode="In" />
+          <Parameter Name="pdNGAYBATDAU" Type="datetime" Mode="In" />
+          <Parameter Name="pdNGAYKETTHUC" Type="datetime" Mode="In" />
+          <Parameter Name="pnDIEMBATDAU" Type="int" Mode="In" />
+          <Parameter Name="pnOFFSET" Type="int" Mode="In" />
+          <Parameter Name="pnLIMIT" Type="int" Mode="In" />
+          <Parameter Name="pnSORT" Type="int" Mode="In" />
+          <Parameter Name="pnDIRECT" Type="int" Mode="In" />
+        </Function>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TRAVEL_PTUDModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="TRAVEL_PTUDEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="TOURs" EntityType="TRAVEL_PTUDModel.TOUR" />
+          <FunctionImport Name="TOUR_LISTOFTAB" EntitySet="TOURs" ReturnType="Collection(TRAVEL_PTUDModel.TOUR)">
+            <Parameter Name="pnLOAITOUR" Mode="In" Type="Int32" />
+            <Parameter Name="pdNGAYBATDAU" Mode="In" Type="DateTime" />
+            <Parameter Name="pdNGAYKETTHUC" Mode="In" Type="DateTime" />
+            <Parameter Name="pnDIEMBATDAU" Mode="In" Type="Int32" />
+            <Parameter Name="pnOFFSET" Mode="In" Type="Int32" />
+            <Parameter Name="pnLIMIT" Mode="In" Type="Int32" />
+            <Parameter Name="pnSORT" Mode="In" Type="Int32" />
+            <Parameter Name="pnDIRECT" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="testPro" EntitySet="TOURs" ReturnType="Collection(TRAVEL_PTUDModel.TOUR)" >
+            <Parameter Name="pnLOAITOUR" Mode="In" Type="Int32" />
+          </FunctionImport>
+        </EntityContainer>
+        <EntityType Name="TOUR">
+          <Key>
+            <PropertyRef Name="ID" />
+            <PropertyRef Name="TENTOUR" />
+            <PropertyRef Name="LOAITOUR" />
+            <PropertyRef Name="DIEMBATDAU" />
+            <PropertyRef Name="NGAYBATDAU" />
+            <PropertyRef Name="NGAYKETTHUC" />
+            <PropertyRef Name="BATDAUDANGKY" />
+            <PropertyRef Name="KETTHUCDANGKY" />
+            <PropertyRef Name="SOVENGUOILON" />
+            <PropertyRef Name="GIANGUOILON" />
+            <PropertyRef Name="SOVETREEM" />
+            <PropertyRef Name="GIATREEM" />
+            <PropertyRef Name="SOVETRENHO" />
+            <PropertyRef Name="GIATRENHO" />
+            <PropertyRef Name="SOVEEMBE" />
+            <PropertyRef Name="GIAEMBE" />
+            <PropertyRef Name="GIADAILY" />
+            <PropertyRef Name="DONVITIEN" />
+            <PropertyRef Name="VANCHUYEN" />
+            <PropertyRef Name="KHACHSAN" />
+            <PropertyRef Name="MAYBAY" />
+            <PropertyRef Name="TRANGTHAI" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="TENTOUR" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+          <Property Name="LOAITOUR" Type="Int32" Nullable="false" />
+          <Property Name="DIEMBATDAU" Type="Int32" Nullable="false" />
+          <Property Name="NGAYBATDAU" Type="DateTime" Nullable="false" />
+          <Property Name="NGAYKETTHUC" Type="DateTime" Nullable="false" />
+          <Property Name="BATDAUDANGKY" Type="DateTime" Nullable="false" />
+          <Property Name="KETTHUCDANGKY" Type="DateTime" Nullable="false" />
+          <Property Name="MOTA" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="SOVENGUOILON" Type="Int32" Nullable="false" />
+          <Property Name="GIANGUOILON" Type="Double" Nullable="false" />
+          <Property Name="SOVETREEM" Type="Int32" Nullable="false" />
+          <Property Name="GIATREEM" Type="Double" Nullable="false" />
+          <Property Name="SOVETRENHO" Type="Int32" Nullable="false" />
+          <Property Name="GIATRENHO" Type="Double" Nullable="false" />
+          <Property Name="SOVEEMBE" Type="Int32" Nullable="false" />
+          <Property Name="GIAEMBE" Type="Double" Nullable="false" />
+          <Property Name="GIADAILY" Type="Double" Nullable="false" />
+          <Property Name="DONVITIEN" Type="String" Nullable="false" MaxLength="3" Unicode="true" FixedLength="true" />
+          <Property Name="VANCHUYEN" Type="Boolean" Nullable="false" />
+          <Property Name="KHACHSAN" Type="Boolean" Nullable="false" />
+          <Property Name="MAYBAY" Type="Boolean" Nullable="false" />
+          <Property Name="TRANGTHAI" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+          <Property Name="DELSTAMP" Type="DateTime" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TRAVEL_PTUDModelStoreContainer" CdmEntityContainer="TRAVEL_PTUDEntities">
+          <EntitySetMapping Name="TOURs"><EntityTypeMapping TypeName="TRAVEL_PTUDModel.TOUR"><MappingFragment StoreEntitySet="TOUR">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="TENTOUR" ColumnName="TENTOUR" />
+            <ScalarProperty Name="LOAITOUR" ColumnName="LOAITOUR" />
+            <ScalarProperty Name="DIEMBATDAU" ColumnName="DIEMBATDAU" />
+            <ScalarProperty Name="NGAYBATDAU" ColumnName="NGAYBATDAU" />
+            <ScalarProperty Name="NGAYKETTHUC" ColumnName="NGAYKETTHUC" />
+            <ScalarProperty Name="BATDAUDANGKY" ColumnName="BATDAUDANGKY" />
+            <ScalarProperty Name="KETTHUCDANGKY" ColumnName="KETTHUCDANGKY" />
+            <ScalarProperty Name="MOTA" ColumnName="MOTA" />
+            <ScalarProperty Name="SOVENGUOILON" ColumnName="SOVENGUOILON" />
+            <ScalarProperty Name="GIANGUOILON" ColumnName="GIANGUOILON" />
+            <ScalarProperty Name="SOVETREEM" ColumnName="SOVETREEM" />
+            <ScalarProperty Name="GIATREEM" ColumnName="GIATREEM" />
+            <ScalarProperty Name="SOVETRENHO" ColumnName="SOVETRENHO" />
+            <ScalarProperty Name="GIATRENHO" ColumnName="GIATRENHO" />
+            <ScalarProperty Name="SOVEEMBE" ColumnName="SOVEEMBE" />
+            <ScalarProperty Name="GIAEMBE" ColumnName="GIAEMBE" />
+            <ScalarProperty Name="GIADAILY" ColumnName="GIADAILY" />
+            <ScalarProperty Name="DONVITIEN" ColumnName="DONVITIEN" />
+            <ScalarProperty Name="VANCHUYEN" ColumnName="VANCHUYEN" />
+            <ScalarProperty Name="KHACHSAN" ColumnName="KHACHSAN" />
+            <ScalarProperty Name="MAYBAY" ColumnName="MAYBAY" />
+            <ScalarProperty Name="TRANGTHAI" ColumnName="TRANGTHAI" />
+            <ScalarProperty Name="DELSTAMP" ColumnName="DELSTAMP" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="TOUR_LISTOFTAB" FunctionName="TRAVEL_PTUDModel.Store.TOUR_LISTOFTAB" />
+          <FunctionImportMapping FunctionImportName="testPro" FunctionName="TRAVEL_PTUDModel.Store.testPro" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Tour" ZoomLevel="53">
+        <EntityTypeShape EntityType="TRAVEL_PTUDModel.TOUR" Width="1.5" PointX="0.75" PointY="0.75" Height="5.634013671875" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

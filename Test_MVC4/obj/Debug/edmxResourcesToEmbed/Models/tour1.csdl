@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TRAVEL_PTUDModel1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="TRAVEL_PTUDEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TOURs" EntityType="TRAVEL_PTUDModel1.TOUR" />
+  </EntityContainer>
+  <EntityType Name="TOUR">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="TENTOUR" />
+      <PropertyRef Name="LOAITOUR" />
+      <PropertyRef Name="DIEMBATDAU" />
+      <PropertyRef Name="NGAYBATDAU" />
+      <PropertyRef Name="NGAYKETTHUC" />
+      <PropertyRef Name="BATDAUDANGKY" />
+      <PropertyRef Name="KETTHUCDANGKY" />
+      <PropertyRef Name="SOVENGUOILON" />
+      <PropertyRef Name="GIANGUOILON" />
+      <PropertyRef Name="SOVETREEM" />
+      <PropertyRef Name="GIATREEM" />
+      <PropertyRef Name="SOVETRENHO" />
+      <PropertyRef Name="GIATRENHO" />
+      <PropertyRef Name="SOVEEMBE" />
+      <PropertyRef Name="GIAEMBE" />
+      <PropertyRef Name="GIADAILY" />
+      <PropertyRef Name="DONVITIEN" />
+      <PropertyRef Name="VANCHUYEN" />
+      <PropertyRef Name="KHACHSAN" />
+      <PropertyRef Name="MAYBAY" />
+      <PropertyRef Name="TRANGTHAI" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="TENTOUR" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="LOAITOUR" Type="Int32" Nullable="false" />
+    <Property Name="DIEMBATDAU" Type="Int32" Nullable="false" />
+    <Property Name="NGAYBATDAU" Type="DateTime" Nullable="false" />
+    <Property Name="NGAYKETTHUC" Type="DateTime" Nullable="false" />
+    <Property Name="BATDAUDANGKY" Type="DateTime" Nullable="false" />
+    <Property Name="KETTHUCDANGKY" Type="DateTime" Nullable="false" />
+    <Property Name="MOTA" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="SOVENGUOILON" Type="Int32" Nullable="false" />
+    <Property Name="GIANGUOILON" Type="Double" Nullable="false" />
+    <Property Name="SOVETREEM" Type="Int32" Nullable="false" />
+    <Property Name="GIATREEM" Type="Double" Nullable="false" />
+    <Property Name="SOVETRENHO" Type="Int32" Nullable="false" />
+    <Property Name="GIATRENHO" Type="Double" Nullable="false" />
+    <Property Name="SOVEEMBE" Type="Int32" Nullable="false" />
+    <Property Name="GIAEMBE" Type="Double" Nullable="false" />
+    <Property Name="GIADAILY" Type="Double" Nullable="false" />
+    <Property Name="DONVITIEN" Type="String" Nullable="false" MaxLength="3" Unicode="true" FixedLength="true" />
+    <Property Name="VANCHUYEN" Type="Boolean" Nullable="false" />
+    <Property Name="KHACHSAN" Type="Boolean" Nullable="false" />
+    <Property Name="MAYBAY" Type="Boolean" Nullable="false" />
+    <Property Name="TRANGTHAI" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="DELSTAMP" Type="DateTime" />
+  </EntityType>
+</Schema>
